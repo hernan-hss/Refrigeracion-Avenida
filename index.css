@@ -1,0 +1,743 @@
+body { background-color: black;font-family:OpenSansCondensed-LightItalic}
+
+@font-face { font-family:'OpenSansCondensed-LightItalic';
+
+src: url('fuentes/OpenSansCondensed-LightItalic.ttf') format('OpenType');
+ font-weight: normal; font-style: normal;
+}
+
+}
+
+p {font-family:Charm-Regular }
+
+@font-face { font-family:'Charm-Regular';
+
+ src: url('fuentes/Charm-Regular.ttf') format('OpenType');
+ font-weight: normal; font-style: normal;
+}
+
+
+#cuerpo {;width:973px; height:2631px; margin-right:auto ;margin-left: auto; border: 2px solid red; background-color: #e1e7e6 }
+
+header { background-image: url(imagenes/frenteCaptura.PNG)  ;width: 969px; height: 270px; margin-left:1px;margin-right: auto;margin-top: 2px}
+
+#logo { background-size: cover ;background-image: url(imagenes/logo.jpg);  width: 50px; height:50px; margin-top: 10px ; float: left; margin-left: 5px}
+
+.nombre { width:auto; height: 50px; float:left; background:#2E64FE; margin-top: 10px }
+
+
+
+
+
+
+.destacado_00{
+width: 150px;
+height: 35px;
+background:transparent;
+margin-bottom:none;
+text-align: center;
+font-size: 25px;
+color: #fff; 
+text-decoration: none;
+line-height: 1px;
+font-weight: bolder;
+box-shadow: 0px 5px 0px ; 
+margin-right:32.5px;
+}
+
+.destacado_00:hover{
+width: 400px;
+height: 40px; 
+background-color:#fff;
+color: black;
+border: #000 3px solid;
+box-shadow: 0px 3px 0px black} 
+
+  .botonera {background:-moz-linear-gradient(top,#ccc 50%,#8181F7);
+  background: -webkit-gradient(linear, 0 0, 0 75%, from(#65b6cf), to(#2c2c2c)) ;
+  border:black 2px solid;background-color:#4169E1; width:963.5px; height: 80px; margin-left:3px;margin-right: auto; float:left;}
+
+.destacado { display: inline;  }
+
+.destacado_1 { display: inline-block;
+width: 170px;
+height: 40px;
+margin-bottom:none;
+text-align: center;
+font-size: 25px;
+color: #fff; 
+text-decoration: none;
+line-height: 40px;
+font-weight: bolder;
+border:#fff  3px solid;
+margin-top:;
+box-shadow: 0px 5px 0px;
+margin-right:1.5px  ;
+
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+
+}
+
+
+.destacado_1:hover {
+  background-color:#fff;
+color: black;
+  border: #000 2px solid;
+box-shadow: 0px 5px 0px black
+
+}
+
+#contenido {width: 650px;height:auto; margin-right: auto;margin-left: auto; float: left; } 
+
+
+.redes {border:red 2px solid; background-color:#000; width: 280px; height: 70px; float: left; margin-left: 2.5px }
+
+
+.destacado_2 { 
+
+display: inline-block;
+width: 40px;
+height: 40px;
+background:#fff;
+text-align: center;
+font-size: 20px;
+color: #000; 
+text-decoration: none;
+text-align: center;
+line-height: 40px;
+font-weight: bolder;
+border: #fff 2px solid;
+border-radius: 50px;
+margin-right: 10px;
+margin-bottom:10px;
+float: left;
+}
+.destacado_2:hover {
+  background-color: #000;
+color:#fff; 
+border: red 2px solid;}
+
+
+#botonf {background-image:url(imagenescontacto/facebook.png); background-size: cover; height: 40px; width: 40px; margin-left: 1px}
+
+#botonin{background-image:url(imagenescontacto/instagram.jpg); background-size: cover; height: 40px; width: 40px}
+
+#botong {background-image:url(imagenescontacto/t.png); background-size: cover; height: 40px; width: 40px}
+
+#botonm {background-image:url(imagenescontacto/googlemaps.png); background-size: cover; height:40px; width: 40px }
+
+
+#botonf:hover {
+  background-color: #000;
+ border: #4267b2 3px solid;}
+
+#botong:hover {
+  background-color: #000;
+border: #4267b2 2px solid;}
+
+#botonm:hover {
+  background-color: #000;
+border: green 2px solid;}
+
+/**/
+
+audio {width: 275px; margin-top:10px; float:right; border: 2px solid blue;margin-right: 5px;margin-right: 5px;}
+
+
+/**/
+
+.texto_oferta {text-align:center;border: red 4px dotted ;
+  background-color:#FAFAFA; width: 500px; height:190px;
+ float:left;margin-top: 5px; margin-left:4px; padding-bottom:20px;
+-moz-box-shadow: 0px 0px 30px #000;
+-webkit-box-shadow:0px 0px 30px #000;  
+box-shadow:0px 0px 30px red; margin-top: 20px; }
+
+span { font-weight: bolder ;color: #0000FF;
+ font-size: 17px; padding-left:10px  }
+
+.destacado_3 { font-size:19px; margin:10px; 
+  font-weight: bolder;line-height: 20px}
+
+
+.destacado_4 { font-size: 18px }
+
+#imagen_homero { background-image:url(imagenes/hCaptura.PNG); width: 250px; height: 200px; margin-left: 150px; float: left; margin-top:25px; margin-right: 200px}
+
+#imagen_portada { background-image:url("imagenes/imagenportada.PNG") ;background-size: cover; float: left; margin-top: 25px; margin-left: 2.5px; height: 490px; width: 300px   }
+
+.texto_portada {
+ background-color:#fff; 
+ width: 320px; height:470px; 
+ float: right; margin-top:25px; 
+ text-align:center; margin-left: 2px;
+  margin-left:2px;
+   font-size: 18px ;
+padding:10px}
+
+#logo_local {border:5px solid black; width: 328px; height: 450px; float:right; margin-top: 15px; background-size: cover; background-image: url(imagenes/logoCaptura.PNG);} 
+
+
+
+.titulos { font-size:20px}
+
+.texto_logo {padding: 10px;width:285px; 
+  height: 440px; float:left; text-align: center; 
+  background-color: #fff; margin-top:14px;
+   margin-left: 2.5; font-size: 17.2px;}
+
+
+
+
+aside { width:310px; height:auto; float: right; margin-top: 180px; margin-right: 2.5px}
+
+#empresas_confian {-moz-box-shadow: 0px 0px 30px #000;
+-webkit-box-shadow:0px 0px 30px #000;  
+box-shadow:0px 0px 30px red; font-weight: bolder ;font-family: Britannic Bold; border: 2.5px dotted red ;color:#000;background-color:#fff;font-size: 1.2em; width:300px; height: 130px; float:right; text-align: center;line-height:35px; margin-right:2px; margin-bottom:7px; }
+
+
+#imagen_confian1 {  background-image:url(imagenes/Captura.PNG); 
+ width:286px; height: 65px;
+  float:right; margin-top:10px; margin-right:10px }
+
+
+  
+#imagen_confian2 {background-size:cover;
+ background-image: url(imagenes/naldoCaptura.PNG); 
+ width:150px; height: 140px; float:left; 
+  margin-top: 20px; margin-left: 95px}
+
+
+#imagen_confian3 {background-size: cover;
+ background-image: url(imagenes/butti130.PNG);
+  width:150px; height: 140px; float:right;  margin-top: 15px; margin-right:65px;  }
+
+#imagen_confian4 {background-size:cover ;background-image:url(imagenes/cincovial135.PNG); 
+ width:150px; height: 140px; float:right; margin-top: 15px ;margin-right:65px;  }
+
+#imagen_confian5 {background-size: cover;background-image: url(imagenes/bomberosCaptura.PNG); width:166px; height: 130px; float:right; margin-top: 15px; margin-right: 58px }
+
+
+#imagen_confian6 {background-size: cover;background-image:url(imagenes/bomberossanpedroCaptura.PNG);  width:295px; height: 115px; float:right; margin-top:15px;margin-right: 5px }
+
+
+
+/**/
+
+#marcas { width:968.5px; height: 500px ;background-color: #e74c3c
+; float: left; border:2px solid #fff; margin-top: 20px }
+
+
+#marcastexto1 {padding:5px ;color: blue ;text-align:center; line-height:25px; font-family: Britannic Bold; border: 2PX #000 dotted; font-size: 1.2em; background-color:#F2F2F2; width:284px;height: 100px; float:left; margin:12px;font-weight: bolder;} 
+
+
+#marcastexto2 {padding:5px ;color: blue ;text-align:center; line-height:50px; font-family: Britannic Bold; border: 2PX #000 dotted; font-size: 1.2em; background-color:#F2F2F2; width:284px;height: 100px; float:left;  margin:12px;font-weight: bolder;} 
+
+#marcastexto3 {padding:5px ;color: blue ;text-align:center; line-height:25px; font-family: Britannic Bold; border: 2PX #000 dotted; font-size: 1.2em; background-color:#F2F2F2; width:284px;height: 100px; float:left;  margin:12px; font-weight: bolder;} 
+
+/*    */
+
+#marcas_imagenes1  { background-size: cover;
+ background-image: url(imagenes/GAFACaptura.PNG);
+ width:140px; height: 135px; float:left; 
+   margin-left: 90px;margin-top:25px} 
+
+
+#marcas_imagenes2 { background-size: cover;
+  background-image: url(imagenes/auroraCaptura.PNG);
+  width:136px;height: 134px; float:left; 
+margin-left:178px;margin-top:25px} 
+
+
+
+#marcas_imagenes3 { background-image: url(imagenes/bghCaptura.PNG);
+  background-size: cover;
+  width:137px;height: 135px; 
+  float:left; margin-left:190px;margin-top:25px} 
+
+
+#marcas_imagenes4  { background-size: cover;
+ background-image: url(imagenes/patriotCaptura.PNG);
+ width:142px; height: 135px; float:left; 
+   margin-left: 89px;margin-top:25px} 
+
+
+#marcas_imagenes5 { background-size: cover;
+  background-image: url(imagenes/SAMSUMGCaptura.PNG);
+  width:140px;height: 132px; float:left; 
+margin-left:176px;margin-top:25px} 
+
+
+
+#marcas_imagenes6 { background-image: url(imagenes/tclCaptura.PNG);
+  background-size: cover;
+  width:142px;height: 140px; 
+  float:left; margin-left:185px;margin-top:25px} 
+
+
+
+footer {width: 968.5px; height:220px; background-color: black; float: left;margin-right: auto; border: 2px solid #fff}
+
+#informe_pie {color: #fff;line-height: 15px ;font-size: 1.2em ; width: 600px;height: 80px; float:left; margin-top: 55px;margin-left: 9.5px; border:3px solid #ffff; padding: 15px; text-align: center}
+
+  #mediosdepago {width: 300px;height: 180px; float:left; margin-top: 20px; margin-left:9.5px ;border:  3px solid #ffff }
+
+#mediosdepago_parrafo {width: 282px; height: 50px; margin-left: auto; margin-right: auto; margin-top:3px; border: 2px solid #fff; color: #fff; font-size: 1.25em;text-align: center; line-height: 10px;}
+
+#efectivo {width: 35px;height: 40px; float:left; margin-top:20px; margin-right:2px;border:1px solid #ffff; margin-left:58.5px;
+background-image:url(imagenes/pagoefectivo.PNG); background-size: cover; }
+
+#visa {width:40px;height: 40px; float:left; margin-top:20px; margin-right:2px;border:1px solid #ffff;
+background-size: cover;background-image:url(imagenes/logovisa.png);}
+
+#mastercard {background-image: url(imagenes/logomastercard.png);background-size: cover; width:40px;height: 40px; float:left; margin-top:20px; margin-right:2px;border:1px solid #ffff}
+
+#pagomaestro {background-image: url(imagenes/pagomaetro.png);background-size: cover; width: 40px;height: 40px; float:left; margin-top:20px; border:1px solid #ffff }
+
+
+
+
+
+
+@media all and ( min-width: 600px) and (max-width: 972px )
+
+
+
+{ #cuerpo { width: 580px; height: 4500px; margin-left: auto;margin-left: auto;background-color: #e1e7e6}
+
+header {background-repeat: no-repeat; background-size:cover;
+ background-image: url(imagenes/frenteCaptura.PNG)  ;width:99%; height:200px;}
+
+
+
+#logo { background-size: cover ;
+  background-image: url(imagenes/logo.jpg);  
+  width: 35px; height:35px;  ; 
+  float: left; margin:2px; padding: 0}
+
+
+.nombre { width:auto;
+ height: 35px; float:left;
+  background:#2E64FE; margin-top: 0px; font-size: 10px; margin-top: 1px}
+
+.destacado
+
+.destacado_00{
+width: 10px;
+height: 35px;
+font-size: 20px;}
+
+
+
+#contenido { width: 580px;height:auto;
+ margin-right: auto;margin-left: auto; float: left; } 
+                               
+ .botonera {background:-moz-linear-gradient(top,#ccc 50%,#8181F7);
+  background: -webkit-gradient(linear, 0 0, 0 75%, from(#65b6cf), to(#2c2c2c)) ;
+  border:black 2px solid;background-color:#4169E1;
+   width:570px; height:80px; float:left;}
+
+.destacado { display: inline;  }
+.destacado_1{
+float: left;
+width: 90px;
+height: 45px;
+margin-left: 5px;
+
+margin-bottom:5px;
+font-size: 15px;  }
+
+
+
+.redes 
+
+
+/**/
+
+audio {width: 275px; margin-top:10px; 
+  float:right; border: 2px solid blue;
+  margin-right: 5px;margin-right: 5px;}
+
+/**/
+
+.texto_oferta { width: 550px; height:180px;
+  margin-top: 50px; padding-bottom:25px; margin-left: 12px;
+ }
+
+span { font-weight: bolder ;
+  color: #0000FF; font-size: 20px;
+   padding-left:10px  }
+
+.destacado_3 { font-size:19px; margin:10px;
+ font-weight: bolder; line-height:20px }
+
+.destacado_4 { font-size: 20px }
+
+#imagen_homero { background-image:url(imagenes/hCaptura.PNG); 
+  width: 250px; height: 200px; margin-left: 165px; margin-top:50px;}
+
+#imagen_portada { float:left; margin-top:50px;
+ margin-left:90px;width: 400px }
+
+.texto_portada { font-size: 20px;
+ background-color:#fff; margin-right:21px;
+ width: 520px; 
+ height:420px; 
+margin-top:50px; 
+padding:10px;
+padding-top: 10px;
+border-bottom: 4px solid blue;
+border-top: 4px solid blue; line-height:25px;}
+
+.titulos { font-size:22px}
+
+.texto_logo 
+ {padding: 10px; margin-left: 20px;
+  width:520px; 
+  height: 400px;
+  margin-top: 50px ; 
+  border-top: 4px solid blue;
+      border-bottom: 4px solid blue; font-size: 20px; line-height: 25px}
+
+#logo_local{width: 370px; height:370px; 
+  margin-top:100px; margin-right: 100px;
+  background-image: url(imagenes/logo.jpg); } 
+
+ 
+
+
+
+
+aside { width:575px;
+ margin-top: 100px; margin-right:4;
+  border-top: 3px; border-top: 3px solid blue }
+
+#empresas_confian { float:none;line-height:40px;
+ margin-left: 135px; margin-bottom: 40PX; margin-top: 50px }
+
+#imagen_confian1 {  background-image:url(imagenes/Captura.PNG);  
+  width:286px; height: 65px; float:right; 
+  margin-top:20px; margin-right:3px }
+
+#imagen_confian2 {background-size:cover;
+ background-image: url(imagenes/naldoCaptura.PNG); 
+ width:150px; height: 140px; float:left; 
+  margin-top: 20px; margin-left:1px}
+
+#imagen_confian3 {background-size: cover;
+ background-image: url(imagenes/butti130.PNG);
+  width:150px; height: 140px; float:right;  margin-top: 55px; margin-right:3px;  }
+
+#imagen_confian4 {background-size:cover ;background-image:url(imagenes/cincovial135.PNG); 
+ width:145px; height: 135px; float:right; margin-top:25px ;margin-right: 276PX }
+
+#imagen_confian5 {background-size: cover;background-image:url(imagenes/bomberossanpedroCaptura.PNG);  width:295px; height: 115px; float:left; margin-top:15px; margin-left: 2px }
+
+#imagen_confian6 {background-size: cover;background-image: url(imagenes/bomberosCaptura.PNG); width:166px; height: 130px; float:; margin-top:0px; margin-right: 3px }
+
+/**/
+
+#marcas { width:574px; height:460px
+; float: left; margin-left: 1px; }
+
+
+#marcastexto1 {line-height:23px; font-size: 1em; width: 170px; margin-left:7px; margin-right: 5px } 
+
+
+#marcastexto2 {line-height:25px; font-size: 1.2em; width: 170px; margin-left:0px;margin-right: 5px} 
+
+#marcastexto3 {line-height:22px; font-size: 1em; width: 170px; margin-left: 0px;margin-right: 5px } 
+
+/*    */
+ 
+
+ #marcas_imagenes1  { background-size: cover;
+ background-image: url(imagenes/GAFACaptura.PNG);
+ width:120px; height: 115px; float:left; 
+   margin-left: 40px;margin-top:25px} 
+
+
+#marcas_imagenes2 { background-size: cover;
+  background-image: url(imagenes/auroraCaptura.PNG);
+  width:116px;height: 114px; float:left; 
+margin-left:74px;margin-top:25px} 
+
+
+
+#marcas_imagenes3 { background-image: url(imagenes/bghCaptura.PNG);
+  background-size: cover;
+  width:117px;height: 115px; 
+  float:left; margin-left:70px;margin-top:25px} 
+
+
+#marcas_imagenes4  { background-size: cover;
+ background-image: url(imagenes/patriotCaptura.PNG);
+ width:122px; height: 115px; float:left; 
+   margin-left: 40px;margin-top:25px} 
+
+
+#marcas_imagenes5 { background-size: cover;
+  background-image: url(imagenes/SAMSUMGCaptura.PNG);
+  width:120px;height: 112px; float:left; 
+margin-left:70px;margin-top:25px} 
+
+
+
+#marcas_imagenes6 { background-image: url(imagenes/tclCaptura.PNG);
+  background-size: cover;
+  width:122px;height: 120px; 
+  float:left; margin-left:65px;margin-top:25px} 
+
+
+
+footer {width: 575px; height:365px; margin-left: 1px}
+#informe_pie {font-size:17px; width: 518px; margin-top: 20px}
+
+  #mediosdepago { margin-left:140px }} 
+
+
+
+
+
+  /* termino 970*/
+
+
+
+
+@media all and (max-width: 599px ) {
+
+
+
+
+
+#cuerpo { width:90%; height:4445px; }
+
+header {background-repeat: no-repeat; background-size:cover;
+ background-image: url(imagenes/Captura600.PNG)  ;width:99%;
+ margin-left: 1px; height:200px;background-color: #e1e7e6}
+
+
+#logo { background-size: cover ;
+  background-image: url(imagenes/logo.jpg);  
+  width: 30px; height:30px; margin-top: 10px ; 
+  float: left; margin:0px;}
+
+.nombre { width:auto;
+ height: 30px; float:left;
+  background:#2E64FE; margin-top: 0px; font-size: 8px;}
+ 
+.destacado { display: inline; }
+
+.destacado_00{
+width: 10px;
+height: 35px;
+font-size: 15px;}
+
+
+
+  .botonera {  width:98%;height:280px;margin-left:1px; float:none;}
+
+
+
+.destacado_1 { 
+width: 90%;width: 90%}
+
+#contenido {width:99%;height:auto; } 
+
+
+.redes {width: 99%; height:76px; float: none; margin-left: 1px }
+
+
+.destacado_2 { 
+
+display: inline-block;
+width: 70%;
+height: 25px;
+background:#fff;
+text-align: center;
+font-size: 15px;
+color: #000; 
+text-decoration: none;
+text-align: center;
+line-height: 20px;
+font-weight: bolder;
+border: #fff 2px solid;
+border-radius: 50px;
+margin-right: 20px;
+margin-bottom:10px;
+float: left;
+}
+.destacado_2:hover {
+  background-color: #000;
+color:#fff; 
+border: red 2px solid;}
+
+
+
+
+/**/
+
+
+audio {width: 275px; margin-top:10px; float:right; border: 2px solid blue;margin-right:20px}
+
+/**/
+
+.texto_oferta {background-color:#FAFAFA; width:90%; height: auto; margin-left: 10px  }
+
+
+#imagen_homero {background-size: cover; background-image:url(imagenes/hCaptura.PNG); width: 210px; height: 150px; margin-left: 55px; 
+  float: left; margin-top:25px; margin-right: 200px}
+
+
+#imagen_portada { background-image:url("imagenes/imagenportada.PNG") ;
+background-size: cover; float: left; 
+margin-top: 25px; margin-left:55px; 
+height: 260px; width: 210px;}
+
+    span {font-size:18px }
+
+.texto_portada {
+width:90%; height:auto; margin-right:5px;
+border-top:3px solid blue; padding: 10px;
+border-bottom: 3px solid blue;background-color: #fff;
+margin-bottom: 20px;font-size: 20px}
+
+
+#logo_local {border:5px solid black;
+  width: 210px; height:210px;
+   float:left; margin-top: 15px;
+   background-image: url(imagenes/logo.jpg);
+   background-size: cover;margin-left: 50px} 
+
+
+
+.titulos { font-size:20px}
+
+.texto_logo 
+ {padding: 10px; margin-left: 7px; float: left;
+  width:90%; margin-top: 0px;
+  height: auto;
+border-bottom: 3px solid blue;
+border-top: 3px solid blue;    
+margin-bottom: 50px;background-color: #fff;font-size: 20px}
+
+
+
+aside { width:60%; height: auto;
+ margin-top: 75px;
+  border-top: 3px solid blue; 
+  ;margin-right:65px;}
+
+#empresas_confian { float:none;line-height:40px;
+  margin-bottom: 40PX;
+  margin-top: 20px; font-size: 20px; height: auto;width: 100%;}
+
+#imagen_confian1 { background-size: cover;  background-image:url(imagenes/Captura.PNG);  
+  width:180px; height: 40px; float:none;
+  margin-top:10px;}
+
+#imagen_confian2 {background-size:cover;
+ background-image: url(imagenes/naldoCaptura.PNG); 
+ width:80px; height: 75px;float: none; margin-left: 50px;
+  margin-top: 20px;}
+
+#imagen_confian3 {background-size: cover;
+ background-image: url(imagenes/butti130.PNG);float: none;
+  width:80px; height:70px; margin-top:20px; margin-left: 50px;  }
+
+#imagen_confian4 {background-size:cover ;background-image:url(imagenes/cincovial135.PNG); 
+ width:80px; height: 75px; float:none; margin-top:20px; margin-left:50px; }
+
+#imagen_confian5 {background-size: cover;
+  background-image:url(imagenes/bomberossanpedroCaptura.PNG);  
+  width:180px; height: 70px; float:none; margin-top:20px; }
+
+#imagen_confian6 {background-size: cover;
+  background-image: url(imagenes/bomberosCaptura.PNG); 
+  width:90px; height: 70px; float:none; margin-top:20px;
+   margin-left: 50px; margin-top: 20px }
+
+
+
+/**/
+
+#marcas { width:99%; height:auto; ;background-color: #e74c3c
+; float: left; border:2px solid #fff; margin-top: 20px; }
+
+
+#marcastexto1 {line-height:15px; font-size:10px; width:25%;height:auto;margin-top: 10px; margin-left: 5px;height: 70px;} 
+
+
+#marcastexto2 { line-height:20px; width:25%; margin:5px;font-weight: bolder; ;margin-left: 0px; margin-top: 10px; font-size: 11px;height:70px;} 
+
+#marcastexto3 { line-height:15px; font-size: 10px;  width:25%; margin-top: 10px; margin-right: 0px ;margin-left: 7px; height:70px;} 
+
+/*    */
+
+#marcas_imagenes1  { background-size: cover;
+ background-image: url(imagenes/GAFACaptura.PNG);
+ width:68px; height: 65px; float:left; 
+   margin-left: 11px;margin-top:5px} 
+
+
+#marcas_imagenes2 { background-size: cover;
+  background-image: url(imagenes/auroraCaptura.PNG);
+  width:68px;height:68px; float:left; 
+margin-left:41px;margin-top:5px} 
+
+
+
+#marcas_imagenes3 { background-image: url(imagenes/bghCaptura.PNG);
+  background-size: cover;
+  width:70px;height:68px; 
+  float:left; margin-left:33px;margin-top:5px} 
+
+
+#marcas_imagenes4  { background-size: cover;
+ background-image: url(imagenes/patriotCaptura.PNG);
+ width:68px; height: 65px; float:left; 
+   margin-left:11px;margin-top:15px;margin-bottom: 10px} 
+
+
+#marcas_imagenes5 { background-size: cover;
+  background-image: url(imagenes/SAMSUMGCaptura.PNG);
+  width:70px;height: 65px; float:left; 
+margin-left:39px;margin-top:15px;margin-bottom: 10px} 
+
+
+#marcas_imagenes6 { background-size: cover;
+  background-image: url(imagenes/tclCaptura.PNG);
+  width:68px;height: 68px; float:left; 
+margin-left:34px;margin-top:15px; margin-bottom: 10px}
+
+
+
+
+
+
+footer {width:99%; height:auto; margin-bottom: 10px }
+
+#informe_pie { line-height:25px;font-size: 20px; width:83%;height: auto; margin-top:20px;margin-left: 9.5px; padding: 15px; }
+
+  #mediosdepago {width:92%;height:auto; margin-bottom: 20px }
+
+#mediosdepago_parrafo {width: 95%; height:auto; margin-left: auto; margin-right: auto; margin-top:3px; border: 2px solid #fff; color: #fff; font-size:20px;text-align: center; line-height: 10px; margin-bottom: 10px}
+
+
+#efectivo {width: 30px;height: 30px; float:left; margin-top:12px; margin-right:2px;border:1px solid #ffff; margin-left:74px;
+background-image:url(imagenes/pagoefectivo.PNG); background-size: cover;}
+
+#visa {width:30px;height: 30px; float:left; margin-top:12px; margin-right:2px;border:1px solid #ffff;
+background-size: cover;background-image:url(imagenes/logovisa.png);}
+
+#mastercard {background-image: url(imagenes/logomastercard.png);background-size: cover; width:30px;height: 30px; float:left; margin-top:12px; margin-right:2px;border:1px solid #ffff}
+
+
+
+
+#pagomaestro {background-image: url(imagenes/pagomaetro.png);background-size: cover; width: 30px;height: 30px; float:left; margin-top:12px; border:1px solid #ffff; margin-bottom:10px }
+
+
+
+}

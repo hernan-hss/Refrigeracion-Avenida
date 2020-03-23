@@ -1,0 +1,747 @@
+body { background-color: black;font-family:OpenSansCondensed-LightItalic}
+
+@font-face { font-family:'OpenSansCondensed-LightItalic';
+
+src: url('fuentes/OpenSansCondensed-LightItalic.ttf') format('OpenType');
+ font-weight: normal; font-style: normal;
+}
+
+}
+
+p {font-family:Charm-Regular }
+
+@font-face { font-family:'Charm-Regular';
+
+ src: url('fuentes/Charm-Regular.ttf') format('OpenType');
+ font-weight: normal; font-style: normal;
+}
+
+
+#cuerpo { width:974px; height:3767px; margin-right:auto ;margin-left: auto; border: 2px solid red; background-color:#e1e7e6 }
+header { background-image: url(imagenes/frenteCaptura.PNG)  ;width: 971px; height: 270px;margin-right: 1px; margin-right: auto;margin-top: 2px}
+#logo { background-size: cover ;background-image: url(imagenes/logo.jpg);  width: 50px; height:50px; margin-top: 10px ; float: left; margin-left: 5px}
+
+.nombre { width: auto; height: 50px; float:left;
+ background:#2E64FE; margin-top: 10px}
+
+
+.destacado_00{
+width: auto;
+height: 35px;
+background:transparent;
+margin-bottom:none;
+text-align: center;
+font-size: 25px;
+color: #fff; 
+text-decoration: none;
+line-height: 1px;
+font-weight: bolder;
+box-shadow: 0px 5px 0px ; 
+margin-right:32.5px;
+}
+
+.destacado_00:hover {
+background-color:#fff;
+color: black;
+border: #000 2px solid;
+box-shadow: 0px 5px 0px black}
+
+
+#contenido { width: 650px;height:1022; margin-right: auto;margin-left: auto; float:none; } 
+                               
+ .botonera { border:black 2px solid; 
+  width:966px; 
+  height: 80px;
+   margin-left:2px;
+  margin-right: auto;
+   float:left;
+   background:-moz-linear-gradient(top,#ccc 40%,#8181F7);
+  background: -webkit-gradient(linear, 0 0, 0 75%, from(#65b6cf),  to(#2c2c2c))}
+  
+  .destacado { display: inline;}
+.destacado_1 { display: inline-block;
+width: 170px;
+height: 40px;
+margin-bottom:none;
+text-align: center;
+font-size: 25px;
+color: #fff; 
+text-decoration: none;
+line-height: 40px;
+font-weight: bolder;
+border:#fff  3px solid;
+box-shadow: 0px 5px 0px;
+margin-right: 5px  ;
+float: left;
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+
+}
+
+
+
+.destacado_1:hover {
+  background-color:#fff;
+color: black;
+  border: #000 2px solid;
+box-shadow: 0px 5px 0px black
+
+}
+#botonf:hover {
+  background-color: #000;
+color:#fff; 
+border: #4267b2 2px solid;}
+
+  
+.redes {border:red 2px solid; background-color:#000;
+ width: 280px; height: 70px; 
+ float:left; margin-left: 2px;}
+
+
+.destacado_2 { 
+
+display: inline-block;
+width: 40px;
+height: 40px;
+background:#fff;
+text-align: center;
+font-size: 20px;
+color: #000; 
+text-decoration: none;
+text-align: center;
+line-height: 40px;
+font-weight: bolder;
+border: #fff 2px solid;
+border-radius: 50px;
+margin-right: 10px;
+margin-bottom:10px;
+float: left;
+}
+.destacado_2:hover {
+	background-color: #000;
+color:#fff; 
+border: red 2px solid;}
+
+#botonf {background-image:url(imagenescontacto/facebook.png); background-size: cover; height: 40px; width: 40px; margin-left: 1px}
+
+#botonin{background-image:url(imagenescontacto/instagram.jpg); background-size: cover; height: 40px; width: 40px}
+
+#botong {background-image:url(imagenescontacto/t.png); background-size: cover; height: 40px; width: 40px}
+
+#botonm {background-image:url(imagenescontacto/googlemaps.png); background-size: cover; height:40px; width: 40px }
+
+
+#botonf:hover {
+  background-color: #000;
+ border: #4267b2 3px solid;}
+
+#botong:hover {
+  background-color: #000;
+border: #4267b2 2px solid;}
+
+#botonm:hover {
+  background-color: #000;
+border: green 2px solid;}
+
+
+
+
+
+
+h2 {float:left; ;border:2px solid black;
+	-moz-border-radius: 10px;
+-webkit-border-radius: 10px; 
+text-align: center;line-height: 55px;
+background-color:#FA5882;
+ height: 60px; width: 200px; 
+ color: #ffff; margin-left: 10px;
+  margin-top: 20px;
+  box-shadow: 4px 7px 5px rgba(53,54,174,0.5), -4px -7px 2px rgba(53,54,174,0.5);}
+
+
+
+#redes {width: 300px ;height:250px; margin-bottom: 50px;}
+
+
+ #texto1 {width:900px; height:auto;
+   margin-left:20px; border-left: 3px solid blue;
+   border-right:  solid blue;padding: 15px;
+   text-align: center; margin-top: 20px;
+    background-color: #fff; margin-bottom:50px; font-size: 25px}
+
+strong {color: blue; font-size: 22px
+}
+
+
+#mantenimiento {width:300px; height:auto; float: left;
+   margin-left:20px; border-left: 3px solid blue;
+   border-right:  solid blue;padding: 15px; margin-top: 20px;
+    background-color: #fff; margin-bottom:50px; font-size: 20px;line-height: 25px}
+#mantenimiento2{background-size: cover;background-image:url(imagenesmantenimiento/mantenimiento2.PNG); width:400px;height: 300px; float:right;border-radius: 100px; border: 4px solid #fff; margin-top:50px; margin-right: 20px }
+
+
+#texto2 {width:400px; height:270px;
+   margin-left:20px; border-top: 3px solid blue;
+   border-bottom: 3px solid blue;padding: 15px;
+   text-align: center; margin-top: 80px;
+    background-color: #fff; margin-bottom:40px;
+    font-size: 20px; float:right; margin-right:20px}
+
+#reparaciones {background-size: cover;
+  background-image:url(imagenesmantenimiento/aires.jpg);
+   width:400px;height: 300px; float:left;border-radius: 100px;
+    border: 4px solid #fff; margin-left: 20px }
+
+
+#fallas1 {width:300px; height:auto; float: left;
+   margin-left:20px; border-left: 3px solid blue;
+   border-right:  solid blue;padding: 15px; margin-top: 50px;
+    background-color: #fff; margin-bottom:50px;
+     font-size:20px;
+    line-height: 25px}
+
+
+#fallas2 {background-size: cover;
+  background-image:url(imagenesmantenimiento/mantenimiento.PNG);
+ width:420px;height: 290px;
+  float:right;border-radius: 100px; 
+  border: 4px solid #fff; 
+  margin-top: 60px; margin-right: 20px}
+
+
+
+#lavarropas1 {width:900px; height:auto;
+   margin-left:20px; border-bottom:3px solid blue;
+   border-top:solid blue;padding: 15px;
+   text-align: center; margin-top: 20px;
+    background-color: #fff; margin-bottom:50px; font-size: 20px;float:left}
+
+
+#lavarropas2 {width:300px; height:auto; float: left;
+   margin-left:20px; border-left: 3px solid blue;
+   border-right:  solid blue;padding: 15px; margin-top: 30px;
+    background-color: #fff; margin-bottom:50px; font-size: 20px;line-height: 25px}
+
+#lavarropas3  {background-size: cover;background-image:url(imagenesmantenimiento/lavarropas3.PNG); width:420px;height: 300px; float:right;border-radius: 100px; border: 4px solid #fff; margin-top: 30px; margin-right: 20px}
+
+
+
+
+
+#marcas {width:970px; height: 500px ;background-color: #e74c3c
+; float: left; border:2px solid #fff; margin-top:50px; }
+
+#marcastexto1 {padding:5px ;color: blue ;text-align:center; line-height:25px; font-family: Britannic Bold; border: 2PX #000 dotted; font-size: 1.2em; background-color:#F2F2F2; width:285px;height: 100px; float:left; margin:12px;font-weight: bolder;} 
+
+#marcastexto2 {padding:5px ;color: blue ;text-align:center; line-height:50px; font-family: Britannic Bold; border: 2PX #000 dotted; font-size: 1.2em; background-color:#F2F2F2; width:285px;height: 100px; float:left;  margin:12px;font-weight: bolder;} 
+
+#marcastexto3 {padding:5px ;color: blue ;text-align:center; line-height:25px; font-family: Britannic Bold; border: 2PX #000 dotted; font-size: 1.2em; background-color:#F2F2F2; width:285px;height: 100px; float:left;  margin:12px; font-weight: bolder;} 
+
+/* */
+
+#marcas_imagenes1  { background-size: cover;
+ background-image: url(imagenes/GAFACaptura.PNG);
+ width:140px; height: 135px; float:left; 
+   margin-left: 90px;margin-top:25px} 
+
+
+#marcas_imagenes2 { background-size: cover;
+  background-image: url(imagenes/auroraCaptura.PNG);
+  width:136px;height: 134px; float:left; 
+margin-left:178px;margin-top:25px} 
+
+
+
+#marcas_imagenes3 { background-image: url(imagenes/bghCaptura.PNG);
+  background-size: cover;
+  width:137px;height: 135px; 
+  float:left; margin-left:190px;margin-top:25px} 
+
+
+#marcas_imagenes4  { background-size: cover;
+ background-image: url(imagenes/patriotCaptura.PNG);
+ width:142px; height: 135px; float:left; 
+   margin-left: 89px;margin-top:25px} 
+
+
+#marcas_imagenes5 { background-size: cover;
+  background-image: url(imagenes/SAMSUMGCaptura.PNG);
+  width:140px;height: 132px; float:left; 
+margin-left:176px;margin-top:25px} 
+
+
+
+#marcas_imagenes6 { background-image: url(imagenes/tclCaptura.PNG);
+  background-size: cover;
+  width:142px;height: 140px; 
+  float:left; margin-left:185px;margin-top:25px} 
+
+
+footer {width: 970px; height:220px; background-color: black; float: left;margin-right: auto; border: 2px solid #fff}
+
+#informe_pie {color: #fff;line-height: 15px ;font-size: 1.2em ; width: 600px;height: 80px; float:left; margin-top: 55px;margin-left: 9.5px; border:3px solid #ffff; padding: 15px; text-align: center}
+
+  #mediosdepago {width: 300px;height: 180px; float:left; margin-top: 20px; margin-left:9.5px ;border:  3px solid #ffff }
+
+#mediosdepago_parrafo {width: 282px; height: 50px; margin-left: auto; margin-right: auto; margin-top:3px; border: 2px solid #fff; color: #fff; font-size: 1.25em;text-align: center; line-height: 10px;}
+
+#efectivo {width: 35px;height: 40px; float:left; margin-top:20px; margin-right:2px;border:1px solid #ffff; margin-left:58.5px;
+background-image:url(imagenes/pagoefectivo.PNG); background-size: cover; }
+
+#visa {width:40px;height: 40px; float:left; margin-top:20px; margin-right:2px;border:1px solid #ffff;
+background-size: cover;background-image:url(imagenes/logovisa.png);}
+
+#mastercard {background-image: url(imagenes/logomastercard.png);background-size: cover; width:40px;height: 40px; float:left; margin-top:20px; margin-right:2px;border:1px solid #ffff}
+
+#pagomaestro {background-image: url(imagenes/pagomaetro.png);background-size: cover; width: 40px;height: 40px; float:left; margin-top:20px; border:1px solid #ffff }
+
+
+
+
+/**/ 
+
+@media all and ( min-width: 600px) and (max-width: 972px )
+
+{
+ #cuerpo { width: 580px; height: 5199px; margin-left: auto;margin-left: auto;}
+
+header {background-repeat: no-repeat; background-size:cover;
+ background-image: url(imagenes/frenteCaptura.PNG)  ;width:577px; height:200px;}
+
+
+#logo { background-size: cover ;
+  background-image: url(imagenes/logo.jpg);  
+  width: 35px; height:35px;  ; 
+  float: left; margin:2px; padding: 0}
+
+.nombre { width:auto;
+ height: 35px; float:left;
+  background:#2E64FE; margin-top: 0px; font-size: 10px; margin-top: 1px}
+ 
+.destacado
+
+.destacado_00{
+width: 10px;
+height: 35px;
+font-size: 20px;}
+
+
+.botonera {background:-moz-linear-gradient(top,#ccc 50%,#8181F7);
+  background: -webkit-gradient(linear, 0 0, 0 75%, from(#65b6cf), to(#2c2c2c)) ;
+  border:black 2px solid;background-color:#4169E1; width:573px; height:80px; float:left; margin-left:1px;}
+
+.destacado { display: inline;  }
+.destacado_1{
+float: left;
+width: 90px;
+height: 45px;
+margin-left:2px;
+margin-bottom:5px;
+font-size: 15px}
+
+
+
+
+#redes {width: 300px ;height:250px; margin-bottom: 50px;}
+
+#texto1 {width:505px; height:auto;
+   margin-left:20px; border-left: 3px solid blue;
+   border-right:  solid blue;padding: 15px;
+   text-align: center; margin-top: 20px;
+    background-color: #fff; font-size: 20px}
+
+strong {color: blue; font-size: 20px
+}
+
+
+#mantenimiento {width:320px; height:auto; float: left;
+   margin-left:20px; border-left: 3px solid blue;
+   border-right:  solid blue;padding-left: 200px; 
+    background-color: #fff; font-size: 18px;line-height: 25px;margin-top:10px}
+    
+    
+#mantenimiento2{background-size: cover;background-image:url(imagenesmantenimiento/mantenimiento2.PNG); width:400px;height: 300px; float:right;border-radius: 100px; border: 4px solid #fff; margin-top:5px; margin-right: 90px }
+
+
+#texto2 {width:510px; height:auto;
+   border-top: 3px solid blue;
+   border-bottom: 3px solid blue;padding: 18px;
+   text-align: center; margin-top: 50px;
+    background-color: #fff;
+    font-size: 20px; float:right; margin-right:20px}
+
+#reparaciones {background-size: cover;background-image:url(imagenesmantenimiento/aires.jpg); width:400px;height: 300px; float:left;border-radius: 60px; border: 4px solid #fff; margin-left: 85px }
+
+
+#fallas1 {width:330px; height:auto; float: left;
+   margin-left:20px; border-left: 3px solid blue;
+   border-right:  solid blue;padding-left: 190px; margin-top: 50px;
+    background-color: #fff; margin-bottom:50px; font-size: 18px;line-height: 25px}
+
+
+#fallas2 {background-size: cover;background-image:url(imagenesmantenimiento/mantenimiento.PNG); width:410px;height: 300px; float:right;border-radius: 100px; border: 4px solid #fff; margin-top: 20px; margin-right: 85px}
+
+
+
+#lavarropas1 {width:505px; height:auto;
+   margin-left:20px; border-top:3px solid blue;
+   border-bottom: solid blue;padding: 18px;
+   text-align: center; margin-top: 50px;
+    background-color: #fff; margin-bottom:50px; font-size: 20px;float:left}
+
+
+#lavarropas2 {width:320px; height:auto; float: left;
+   margin-left:20px; border-left: 3px solid blue;
+   border-right:  solid blue;padding-left:  200px; margin-top: 30px;
+    background-color: #fff; margin-bottom:50px; font-size: 18px;line-height: 25px}
+
+#lavarropas3  {background-size: cover;background-image:url(imagenesmantenimiento/lavarropas3.PNG); width:420px;height: 300px; float:right;border-radius: 100px; border: 4px solid #fff; margin-top: 30px; margin-right: 80px}
+
+    
+  
+
+#marcas { width:574px; height:460px
+; float: left; margin-left: 1px; }
+
+
+#marcastexto1 {line-height:23px; font-size: 1em; width: 170px; margin-left:7px; margin-right: 5px } 
+
+
+#marcastexto2 {line-height:25px; font-size: 1.2em; width: 170px; margin-left:0px;margin-right: 5px} 
+
+#marcastexto3 {line-height:22px; font-size: 1em; width: 170px; margin-left: 0px;margin-right: 5px } 
+
+/*    */
+ 
+
+ #marcas_imagenes1  { background-size: cover;
+ background-image: url(imagenes/GAFACaptura.PNG);
+ width:120px; height: 115px; float:left; 
+   margin-left: 40px;margin-top:25px} 
+
+
+#marcas_imagenes2 { background-size: cover;
+  background-image: url(imagenes/auroraCaptura.PNG);
+  width:116px;height: 114px; float:left; 
+margin-left:74px;margin-top:25px} 
+
+
+
+#marcas_imagenes3 { background-image: url(imagenes/bghCaptura.PNG);
+  background-size: cover;
+  width:117px;height: 115px; 
+  float:left; margin-left:70px;margin-top:25px} 
+
+
+#marcas_imagenes4  { background-size: cover;
+ background-image: url(imagenes/patriotCaptura.PNG);
+ width:122px; height: 115px; float:left; 
+   margin-left: 40px;margin-top:25px} 
+
+
+#marcas_imagenes5 { background-size: cover;
+  background-image: url(imagenes/SAMSUMGCaptura.PNG);
+  width:120px;height: 112px; float:left; 
+margin-left:70px;margin-top:25px} 
+
+
+
+#marcas_imagenes6 { background-image: url(imagenes/tclCaptura.PNG);
+  background-size: cover;
+  width:122px;height: 120px; 
+  float:left; margin-left:65px;margin-top:25px} 
+
+
+
+footer {width: 574px; height:365px; margin-left: 1px}
+
+#informe_pie {font-size:17px; width: 518px; margin-top: 20px}
+
+  #mediosdepago { margin-left:140px }}
+
+
+/*599*/ 
+
+
+
+    
+    
+   @media all and (max-width: 599px ) {
+
+
+
+
+#cuerpo { width:90%; height:4627px; background-color:#f0f0f0 }
+
+header {background-repeat: no-repeat; background-size:cover;
+ background-image: url(imagenes/Captura600.PNG);width:99%;
+ margin-left: 2px; height:200px;}
+
+
+#logo { background-size: cover ;
+  background-image: url(imagenes/logo.jpg);  
+  width: 30px; height:30px; margin-top: 10px ; 
+  float: left; margin:0px;}
+
+.nombre { width:auto;
+ height: 30px; float:left;
+  background:#2E64FE; margin-top: 0px; font-size: 8px;}
+ 
+.destacado
+
+.destacado_00{
+width: 10px;
+height: 30px;
+font-size: 15px;}
+
+
+
+                               
+ .botonera { border:black 2px solid; 
+  width:97.8%; height:280px;
+   float:none;
+margin-left: 2px}
+
+.destacado { display: inline;}
+.destacado_1 {
+width: 90%;
+height: 40px;
+
+
+}
+
+.redes {border:red 2px solid; background-color:#000;
+ width: 98.8%; height: 75px; 
+ float:left; margin-left: 2px;}
+
+
+.destacado_2 { 
+
+display: inline-block;
+width: 70%;
+height: 25px;
+background:#fff;
+text-align: center;
+font-size: 15px;
+color: #000; 
+text-decoration: none;
+text-align: center;
+line-height: 20px;
+font-weight: bolder;
+border: #fff 2px solid;
+border-radius: 50px;
+margin-right: 20px;
+margin-bottom:10px;
+float: left;
+}
+.destacado_2:hover {
+  background-color: #000;
+color:#fff; 
+border: red 2px solid;}
+
+
+
+
+
+
+h2 {float:left; ;border:2px solid black;
+  -moz-border-radius: 10px;
+-webkit-border-radius: 10px; 
+text-align: center;line-height: 55px;
+background-color:#FA5882;
+ height: 60px; width: 200px; 
+ color: #ffff; margin-left: 10px;
+  margin-top: 20px;
+  box-shadow: 4px 7px 5px rgba(53,54,174,0.5), -4px -7px 2px rgba(53,54,174,0.5);}
+
+
+
+#redes {width: 99% ;height:170px; margin-bottom:10px;margin-left: 0px}
+ 
+    
+     #texto1 {width:83%; height:auto;
+   margin-left:5px; border-left: 3px solid blue;
+   border-right:  solid blue;padding: 15px;
+   text-align: center; margin-top: 40px;
+    background-color: #fff; margin-bottom:0px; font-size: 20px; float: left;}
+
+strong {color: blue; font-size: 20px;
+}
+
+
+#mantenimiento {width: 83%; height:auto; float: left;
+   margin-left:5px; border-left: 3px solid blue;
+   border-right:  solid blue;padding: 15px; margin-top: 20px;
+    background-color: #fff; margin-bottom: 0px; font-size: 18px;
+    line-height: 22px;}
+       
+       
+#mantenimiento2{background-size: cover;
+  background-image:url(imagenesmantenimiento/mantenimiento2.PNG);
+   width:240px;height: 170px; float:left;border-radius: 100px; 
+   border: 4px solid #fff; margin-left:38px;margin-top: 20px;
+    margin-bottom: 0px }
+
+
+#texto2 {width:83%; height:auto;
+ border-top: 3px solid blue;
+   border-bottom: 3px solid blue;padding: 15px;
+   text-align: center;
+    background-color: #fff; margin-bottom: 0px;
+    font-size:20px; float:left; margin-left:5px; margin-top: 20px}
+
+#reparaciones {background-size: cover;
+  background-image:url(imagenesmantenimiento/aires.jpg); 
+  width:240px;height:170px; float:left;border-radius: 100px;
+   border: 4px solid #fff; margin-left:38px;
+       margin-top: 20px;margin-bottom: 0px }
+
+
+#fallas1 {width:83%; height:auto; float: left;
+   margin-left:5px; border-left: 3px solid blue;
+   border-right:  solid blue;padding: 15px; margin-top: 20px;
+    background-color: #fff;margin-bottom: 0px; font-size: 18px;line-height: 22px}
+
+
+#fallas2 {background-size: cover;
+  background-image:url(imagenesmantenimiento/mantenimiento.PNG); 
+  width:240px;height:170px;
+   float:left;border-radius: 100px; border: 4px solid #fff;
+    margin-top: 20px; margin-left:38px; margin-bottom: 0px}
+
+
+
+#lavarropas1 {width:85%; height:auto;
+   margin-left:5px; border-bottom: 3px solid blue;
+   border-top:solid blue;padding: 15px;
+   text-align: center; margin-top: 20px;
+    background-color: #fff;
+    margin-bottom:0px;
+    font-size: 20px;
+    float:left}
+
+
+#lavarropas2 {width:83%; height:auto; float: left;
+   margin-left:5px; border-left: 3px solid blue;
+   border-right:  solid blue;padding: 15px; margin-top: 20px;
+    background-color: #fff; margin-bottom:0px; font-size: 18px;
+    line-height: 22px}
+
+#lavarropas3  {background-size: cover;.
+  background-image:url(imagenesmantenimiento/lavarropas3.PNG);
+   width:240px;height: 170px; float:left;border-radius: 100px;
+    border: 4px solid #fff; margin-top: 20px; margin-left:38px;margin-bottom: 0px}
+
+       
+       
+    /**/
+
+#marcas { width:98.7%; height:auto; ;background-color: #e74c3c
+; float: left; border:2px solid #fff; margin-top: 20px; }
+
+
+#marcastexto1 {line-height:15px; font-size:10px; width:25%;height:auto;margin-top: 10px; margin-left: 5px;height: 70px;} 
+
+
+#marcastexto2 { line-height:20px; width:25%; margin:5px;font-weight: bolder; ;margin-left: 0px; margin-top: 10px; font-size: 11px;height:70px;} 
+
+#marcastexto3 { line-height:15px; font-size: 10px;  width:25%; margin-top: 10px; margin-right: 0px ;margin-left: 7px; height:70px;} 
+
+/*    */
+
+#marcas_imagenes1  { background-size: cover;
+ background-image: url(imagenes/GAFACaptura.PNG);
+ width:68px; height: 65px; float:left; 
+   margin-left: 11px;margin-top:5px} 
+
+
+#marcas_imagenes2 { background-size: cover;
+  background-image: url(imagenes/auroraCaptura.PNG);
+  width:68px;height:68px; float:left; 
+margin-left:41px;margin-top:5px} 
+
+
+
+#marcas_imagenes3 { background-image: url(imagenes/bghCaptura.PNG);
+  background-size: cover;
+  width:70px;height:68px; 
+  float:left; margin-left:33px;margin-top:5px} 
+
+
+#marcas_imagenes4  { background-size: cover;
+ background-image: url(imagenes/patriotCaptura.PNG);
+ width:68px; height: 65px; float:left; 
+   margin-left:11px;margin-top:15px;margin-bottom: 10px} 
+
+
+#marcas_imagenes5 { background-size: cover;
+  background-image: url(imagenes/SAMSUMGCaptura.PNG);
+  width:70px;height: 65px; float:left; 
+margin-left:39px;margin-top:15px;margin-bottom: 10px} 
+
+
+#marcas_imagenes6 { background-size: cover;
+  background-image: url(imagenes/tclCaptura.PNG);
+  width:68px;height: 68px; float:left; 
+margin-left:34px;margin-top:15px; margin-bottom: 10px}
+
+
+
+footer {width:98.7%; height:auto; margin-bottom: 10px }
+
+#informe_pie { line-height: 20px;font-size: 1.2em ; width:83%;height: auto; margin-top:20px;margin-left: 9.5px; padding: 15px; }
+
+  #mediosdepago {width:92%;height:auto; margin-bottom: 20px }
+
+#mediosdepago_parrafo {width: 95%; height:auto; margin-left: auto; margin-right: auto; margin-top:3px; border: 2px solid #fff; color: #fff; font-size: 1.25em;text-align: center; line-height: 10px; margin-bottom: 10px}
+
+
+#efectivo {width: 30px;height: 30px; float:left; margin-top:12px; margin-right:2px;border:1px solid #ffff; margin-left:74px;
+background-image:url(imagenes/pagoefectivo.PNG); background-size: cover;}
+
+#visa {width:30px;height: 30px; float:left; margin-top:12px; margin-right:2px;border:1px solid #ffff;
+background-size: cover;background-image:url(imagenes/logovisa.png);}
+
+#mastercard {background-image: url(imagenes/logomastercard.png);background-size: cover; width:30px;height: 30px; float:left; margin-top:12px; margin-right:2px;border:1px solid #ffff}
+
+
+#pagomaestro {background-image: url(imagenes/pagomaetro.png);background-size: cover; width: 30px;height: 30px; float:left; margin-top:12px; border:1px solid #ffff; margin-bottom:10px }
+
+
+}   
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    

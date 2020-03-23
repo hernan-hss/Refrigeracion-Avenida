@@ -1,0 +1,3 @@
+1 metodos de envio.
+2 pagos con tarjeta.
+3 CONFIGURACION DE CORREO ELECTRONICO. 
